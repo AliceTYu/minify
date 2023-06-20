@@ -1,0 +1,36 @@
+.page{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+
+    &__header{
+        position: fixed;
+        z-index: $z-index-header;
+        top: 0;
+        right: 0;
+        left: 0;
+        flex-shrink: 0;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        padding-top: rem(22px);
+        margin-top: rem($header-height-desktop);
+
+        @media #{$screen-tablet}{
+            padding-top: rem(32px);
+        }
+
+        @media #{$screen-desktop}{
+            padding-top: rem(42px);
+        }
+    }
+
+    &__footer{
+        flex-shrink: 0;
+    }
+}

@@ -27,9 +27,18 @@ $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
+$font-size-title-larhe: 48px;
+$font-size-title-big: 36px;
+$font-size-title-normal: 32px;
+$font-size-title-small: 24px;
+
+$font-size-normal: 18px;
+$font-size-small: 16px;
+
 /**
 * Fonts
 */
+$font-size-base: 16px;
 $font-path: '/assets/fonts/';
 $font-family-custom: 'poppins';
 $font-family: $font-family-custom;
@@ -41,7 +50,7 @@ $font-family: $font-family-custom;
 * Breakpoints
 */
 // Пример указания медиазапросов, затем можно использовать ее как '@media #{$screen-medium} {...}'
-$screen-desktop: '(min-width: 1240px)';
+$screen-desktop: '(min-width: 1140px)';
 $screen-tablet: '(min-width: 768px)';
 
 /**
@@ -54,8 +63,8 @@ $gap-container: 20px;
 /**
 * Sizes
 */
-$header-height-mobile: 105px;
-$header-height-desktop: 80px;
+// $header-height-mobile: 80px;
+$header-height-desktop: 100px;
 
 
 /**
