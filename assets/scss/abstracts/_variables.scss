@@ -1,0 +1,72 @@
+/**
+* Colors
+*
+* Название переменной конкретного цвета генерируется через сервис: http://chir.ag/projects/name-that-color/.
+* Значение цвета всегда указывается в HEX-формате в нижнем регистре (кроме исключительных случаев).
+*/
+// Пример указания цветов
+$bunker: #121920;
+$white: #ffffff;
+
+$color-text: $bunker;
+$color-background: $white;
+
+
+
+/**
+* Fonts
+*/
+$font-path: '/assets/fonts/';
+$font-family-custom: 'Roboto';
+$font-family: $font-family-custom;
+
+
+// $line-height-large: 130%;
+
+// ============================================================
+
+/**
+* Breakpoints
+*/
+// Пример указания медиазапросов, затем можно использовать ее как '@media #{$screen-medium} {...}'
+$screen-desktop: '(min-width: 1240px)';
+$screen-tablet: '(min-width: 768px)';
+
+/**
+* Layout
+*/
+$width-container: 1240px;
+$gap-container: 20px;
+
+
+/**
+* Sizes
+*/
+$header-height-mobile: 105px;
+$header-height-desktop: 80px;
+
+
+/**
+* Transitions and Animations
+*/
+
+
+
+/**
+* Radius
+*/
+$border-radius-small: 2px;
+$border-radius-normal: 5px;
+$border-radius-big: 8px;
+
+
+/**
+* Box-shadows
+*/
+
+
+
+/**
+* Z-indexes
+*/
+$z-index-header: 50;
