@@ -6,22 +6,34 @@
 */
 // Пример указания цветов
 $bunker: #121920;
-$white: #ffffff;
+$rangoon-green: #1c1c1c;
+$mine-shaft: #2f2f2f;
+$gray: #828282;
+$seashell: #f1f1f1;
+$bon-jour: #e1e1e1;
+
+$equator: #eebf63;
+$geebung: #cd921e;
+$cornflower: #90c0e8;
+$downy: #6fc2c5;
+$blue-bayoux: #486074;
+$casal: #386163;
+
 
 $color-text: $bunker;
-$color-background: $white;
+$color-background: $seashell;
 
-
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
 
 /**
 * Fonts
 */
 $font-path: '/assets/fonts/';
-$font-family-custom: 'Roboto';
+$font-family-custom: 'poppins';
 $font-family: $font-family-custom;
 
-
-// $line-height-large: 130%;
 
 // ============================================================
 
@@ -35,7 +47,7 @@ $screen-tablet: '(min-width: 768px)';
 /**
 * Layout
 */
-$width-container: 1240px;
+$width-container: 1110px;
 $gap-container: 20px;
 
 
@@ -55,9 +67,11 @@ $header-height-desktop: 80px;
 /**
 * Radius
 */
-$border-radius-small: 2px;
-$border-radius-normal: 5px;
-$border-radius-big: 8px;
+$border-radius-tiny: 10px;
+$border-radius-small: 20px;
+$border-radius-big: 25px;
+$border-radius-large: 30px;
+$border-radius-huge: 45px;
 
 
 /**
