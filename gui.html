@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="public/css/style.css">
+    <title>Gui</title>
+</head>
+<body class="page">
+    <header class="page__header header">
+        <div class="container">
+            <div class="header__row" data-menu>
+                <div class="header__col header__col--logo">
+                    <div class="logo">
+                        <a href="#" class="logo__link">Arlene Rey</a>
+                    </div>
+                </div>
+
+                <div class="header__col header__col--burger" data-button>
+                    <span></span>
+                </div>
+
+                <div class="header__col header__col--menu" data-menu-section>
+                    <div class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="index.html" class="menu__link">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="about.html" class="menu__link">About</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="project.html" class="menu__link">Project</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="contact.html" class="menu__link">Contact</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="gui.html" class="menu__link menu__link--active">Gui</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page__content content">
+        <div class="container">
+            <!-- Заголовки -->
+            <div class="gui__block">
+                <h2>Заголовки</h2>
+                <p class="heading heading--huge">Текст для заголовка 1-го уровня</p>
+                <p class="heading heading--large">Текст для заголовка 2-го уровня</p>
+                <p class="heading heading--big">Текст 24px</p>
+                <p class="heading heading--normal">Текст 18px</p>
+            </div>
+            <!-- /Заголовки -->
+
+            <!-- Иконки -->
+            <div class="gui__block">
+                <h2>Иконки</h2>
+                <div class="icons">
+                    <ul class="icons__list">
+                        <li class="icons__item" title="circle">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-circle"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="download">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-download"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="insta">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-insta"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="mail">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-mail"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="play">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-play"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="short-up">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-short-up"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="star">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-star"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="star-half">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-star-half"></use>
+                            </svg>
+                        </li>
+                        <li class="icons__item" title="youtube">
+                            <svg class="icon gui__icon">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-youtube"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Иконки -->
+
+            <!-- Кнопки -->
+            <div class="gui__block">
+                <h2>Кнопки</h2>
+                <div class="buttons">
+                    <h3>Кнопка без иконки</h3>
+                    <ul class="buttons__list">
+                        <li class="buttons__item">
+                            <button class="button button--fill">
+                                <span class="button__text">
+                                    Залитая
+                                </span>
+                            </button>
+                        </li>
+                        <li class="buttons__item">
+                            <button class="button button--border">
+                                <span class="button__text">
+                                    Ободок
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <h3>Кнопка с иконкой</h3>
+                    <ul class="buttons__list">
+                        <li class="buttons__item">
+                            <button class="button button--simple">
+                                <span class="button__icon">
+                                    <svg class="icon icon--black">
+                                        <use xlink:href="public/images/icons/sprite.svg#icon-mail"></use>
+                                    </svg>
+                                </span>
+                                <span class="button__text">Залитая</span>
+                            </button>
+                        </li>
+                        <li class="buttons__item">
+                            <button class="button button--fill">
+                                <span class="button__icon button__icon--right">
+                                    <svg class="icon icon--white">
+                                        <use xlink:href="public/images/icons/sprite.svg#icon-mail"></use>
+                                    </svg>
+                                </span>
+                                <span class="button__text">Залитая</span>
+                            </button>
+                        </li>
+                    </ul>
+
+                    <h3>Кнопка с иконкой обычная</h3>
+                    <ul class="buttons__list">
+                        <li class="buttons__item">
+                            <button class="button button--cover">
+                                <span class="button__icon button__icon--right">
+                                    <svg class="icon icon--black">
+                                        <use xlink:href="public/images/icons/sprite.svg#icon-mail"></use>
+                                    </svg>
+                                </span>
+                                <span class="button__text">Залитая</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Кнопки -->
+
+            <!-- Текстовые поля -->
+            <div class="gui__block">
+                <h2>Текстовые поля</h2>
+                <form class="form">
+                    <!-- Поле ввода -->
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <div class="form__field-block">
+                                    <div class="input">
+                                        <input type="text" class="input__control" name="text" id="text" placeholder="Поле ввода">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Поле ввода email -->
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <div class="form__field-block">
+                                    <div class="input">
+                                        <input type="text" class="input__control" name="email" id="email" placeholder="email xxxxxx@xx.xx" data-mask-email>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Многострочное -->
+                    <div class="form__row">
+                        <div class="form__col">
+                            <div class="form__field">
+                                <div class="form__field-block ">
+                                    <label for="text" class="form__lable">
+                                        <div class="form__field-block ">
+                                            <lable class="input input--textarea">
+                                                <textarea type="text" class="input__control" name="textarea" id="textarea" placeholder="Многострочное поле ввода"></textarea>
+                                            </lable>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <!-- /Текстовые поля -->
+
+            <!-- Заголовки -->
+            <div class="gui__block">
+                <h2>Заголовки</h2>
+            </div>
+            <!-- /Заголовки -->
+        </div>
+    </div>
+
+    <footer class="page__footer footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__col footer__col--logo">
+                    <div class="logo">
+                        <a href="#" class="logo__link logo__link--title">Let's Connect</a>
+                    </div>
+                </div>
+
+                <div class="footer__col footer__col--social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__pic icon">
+                                    <use xlink:href="public/images/icons/sprite.svg#icon-insta"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__pic icon">
+                                    <use xlink:href="public/images/icons/sprite.svg#icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg class="social__pic icon">
+                                    <use xlink:href="public/images/icons/sprite.svg#icon-circle"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer__col footer__col--back">
+                    <button class="button button--cover">
+                        <span class="button__icon button__icon--right">
+                            <svg class="icon icon--black">
+                                <use xlink:href="public/images/icons/sprite.svg#icon-short-up"></use>
+                            </svg>
+                        </span>
+                        <span class="button__text">Back to Top</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="public/js/script.js"></script>
+</body>
+</html>
+
+
+<style>
+    .gui__block {
+        margin-bottom: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .gui__icon {
+        width: 30px;
+        height: 30px;
+    }
+</style>
